@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  border: 1px solid black;
+  width: fit-content;
+}
+
+hr:nth-child(1) {
+  background-color: #ff9933;
+  height: 50px;
+  width: 300px;
+  border: 1px solid black;
+}
+
+hr:nth-child(2) {
+  margin-top: 50px;
+  background-color: green;
+  height: 50px;
+  width: 300px;
+  border: 1px solid black;
+}

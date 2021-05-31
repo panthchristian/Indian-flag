@@ -1,0 +1,13 @@
+#flag {
+  width: 220px;
+  height: 400px;
+  background: linear-gradient(
+    to right,
+    #ff9933,
+    #ff9933 33.33%,
+    white 33.33%,
+    white 66.66%,
+    green 66.66%
+  );
+  transform: rotateZ(90deg);
+}

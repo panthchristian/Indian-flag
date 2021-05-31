@@ -1,0 +1,20 @@
+#saffron {
+  background-color: #ff9933;
+  height: 50px;
+  width: 300px;
+  border: 2px solid black;
+}
+
+#white {
+  background-color: white;
+  height: 50px;
+  width: 300px;
+  border: 2px solid black;
+}
+
+#green {
+  background-color: green;
+  height: 50px;
+  width: 300px;
+  border: 2px solid black;
+}
