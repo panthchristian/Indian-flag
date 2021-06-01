@@ -4,23 +4,23 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 #saffron {
+  flex-grow: 1;
   background-color: #ff9933;
-  height: 33vh;
-  width: 100%;
-  border: 2px solid black;
 }
 
 #white {
+  flex-grow: 1;
   background-color: white;
-  height: 33vh;
-  width: 100%;
-  border: 2px solid black;
 }
 
 #green {
+  flex-grow: 1;
   background-color: green;
-  height: 34vh;
-  width: 100%;
-  border: 2px solid black;
 }

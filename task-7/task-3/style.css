@@ -4,9 +4,13 @@
   box-sizing: border-box;
 }
 
-#flag {
-  width: 100%;
+body {
+  display: flex;
   height: 100vh;
+}
+
+#flag {
+  flex-grow: 1;
   background: linear-gradient(
     to bottom,
     #ff9933,
@@ -15,5 +19,4 @@
     white 66.66%,
     green 66.66%
   );
-  /* transform: rotateZ(90deg); */
 }
